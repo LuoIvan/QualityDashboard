@@ -1,0 +1,46 @@
+{
+    "focus": {
+        "folder": [
+            "Source/media/media_driver/",
+            "Source/media/media_embargo/"
+        
+        ],
+        "extension": [
+            "*.c",
+            "*.cpp",
+            "*.h"
+        ],
+        "fullname": [
+            "Source/media/{* => media_driver/*.h",
+            "Source/media/{* => media_driver/*.cpp",
+            "Source/media/{* => media_driver/*.c"
+        ]
+    },
+    "ignore": {
+        "folder": [],
+        "extension": [],
+        "fullname": [
+            "*/kernel/*",
+            "*_kernel_*",
+            "*/cm/*kernel*",
+            "*ult*",
+            "*table*",
+            "*_mock*",
+            "*to_deprecate*",
+            "*kernelisa*",
+            "*/proprietary/agnostic/vp/hal/igvp*",
+            "*/agnostic/gen11/cm/*kernel*",
+            "*/agnostic/gen12/cm/*",
+            "*/agnostic/gen9_skl/codec/cmrt_kernel/*",
+            "*/proprietary/agnostic/codec/hal/hybrid_vp9/*kernel*",
+            "*//media_driver/proprietary/agnostic/codec/hal/hybrid_hevc/*kernel*",
+            "*/proprietary/agnostic/vp/hal/eld_rmodel.c",
+            "*/proprietary/agnostic/vp/hal/fb_eyemodel.h",
+            "*/proprietary/agnostic/vp/hal/FaceDetectionParameters_ROP90RRIP00.h",
+            "*/proprietary/agnostic/vp/hal/FaceDetectionParameters_ROP90LRIP00.h",
+            "*/proprietary/agnostic/vp/hal/FaceDetectionParameters_ROP00RIP00.h",
+            "*/proprietary/agnostic/vp/hal/FaceDetectionParameters_ROP00RIP30R.h",
+            "*/proprietary/agnostic/vp/hal/FaceDetectionParameters_ROP00RIP30L.h"
+        ]
+    }
+}

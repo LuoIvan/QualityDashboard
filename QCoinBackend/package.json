@@ -1,0 +1,34 @@
+{
+  "name": "qcoinbackend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "abi-decoder": "^1.2.0",
+    "apidoc": "^0.17.6",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ethereum-input-data-decoder": "0.0.12",
+    "express": "~4.16.0",
+    "express-serve-static-core": "^0.1.1",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.2",
+    "json2csv": "^4.2.1",
+    "jsonexport": "^2.3.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.12",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "request": "^2.87.0",
+    "rlp": "^2.2.2",
+    "serve-static": "^1.13.2",
+    "web3": "^1.0.0-beta.35",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
