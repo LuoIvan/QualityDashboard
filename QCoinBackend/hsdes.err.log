@@ -1,0 +1,1820 @@
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/usr/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+[2018-09-19 13:19:03 +0000] [14823] [INFO] Starting gunicorn 19.4.5
+[2018-09-19 13:19:03 +0000] [14823] [INFO] Listening at: http://0.0.0.0:2345 (14823)
+[2018-09-19 13:19:03 +0000] [14823] [INFO] Using worker: sync
+[2018-09-19 13:19:03 +0000] [14827] [INFO] Booting worker with pid: 14827
+[2018-09-19 13:19:03 +0000] [14827] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 366, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 26
+    def query(self, eql_json: dict, max_results: int = 1000)->dict:
+                            ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 366, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 26
+    def query(self, eql_json: dict, max_results: int = 1000)->dict:
+                            ^
+SyntaxError: invalid syntax
+[2018-09-19 13:19:03 +0000] [14827] [INFO] Worker exiting (pid: 14827)
+[2018-09-19 13:19:03 +0000] [14823] [INFO] Shutting down: Master
+[2018-09-19 13:19:03 +0000] [14823] [INFO] Reason: Worker failed to boot.
+[2018-09-19 13:19:04 +0000] [14828] [INFO] Starting gunicorn 19.4.5
+[2018-09-19 13:19:04 +0000] [14828] [INFO] Listening at: http://0.0.0.0:2345 (14828)
+[2018-09-19 13:19:04 +0000] [14828] [INFO] Using worker: sync
+[2018-09-19 13:19:04 +0000] [14832] [INFO] Booting worker with pid: 14832
+[2018-09-19 13:19:04 +0000] [14832] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 366, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 26
+    def query(self, eql_json: dict, max_results: int = 1000)->dict:
+                            ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 366, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 26
+    def query(self, eql_json: dict, max_results: int = 1000)->dict:
+                            ^
+SyntaxError: invalid syntax
+[2018-09-19 13:19:04 +0000] [14832] [INFO] Worker exiting (pid: 14832)
+[2018-09-19 13:19:04 +0000] [14828] [INFO] Shutting down: Master
+[2018-09-19 13:19:04 +0000] [14828] [INFO] Reason: Worker failed to boot.
+[2018-09-19 13:19:06 +0000] [14833] [INFO] Starting gunicorn 19.4.5
+[2018-09-19 13:19:06 +0000] [14833] [INFO] Listening at: http://0.0.0.0:2345 (14833)
+[2018-09-19 13:19:06 +0000] [14833] [INFO] Using worker: sync
+[2018-09-19 13:19:06 +0000] [14837] [INFO] Booting worker with pid: 14837
+[2018-09-19 13:19:06 +0000] [14837] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 366, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 26
+    def query(self, eql_json: dict, max_results: int = 1000)->dict:
+                            ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 366, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 26
+    def query(self, eql_json: dict, max_results: int = 1000)->dict:
+                            ^
+SyntaxError: invalid syntax
+[2018-09-19 13:19:06 +0000] [14837] [INFO] Worker exiting (pid: 14837)
+[2018-09-19 13:19:06 +0000] [14833] [INFO] Shutting down: Master
+[2018-09-19 13:19:06 +0000] [14833] [INFO] Reason: Worker failed to boot.
+[2018-09-19 13:19:09 +0000] [14838] [INFO] Starting gunicorn 19.4.5
+[2018-09-19 13:19:09 +0000] [14838] [INFO] Listening at: http://0.0.0.0:2345 (14838)
+[2018-09-19 13:19:09 +0000] [14838] [INFO] Using worker: sync
+[2018-09-19 13:19:09 +0000] [14842] [INFO] Booting worker with pid: 14842
+[2018-09-19 13:19:09 +0000] [14842] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 366, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 26
+    def query(self, eql_json: dict, max_results: int = 1000)->dict:
+                            ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 366, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 26
+    def query(self, eql_json: dict, max_results: int = 1000)->dict:
+                            ^
+SyntaxError: invalid syntax
+[2018-09-19 13:19:09 +0000] [14842] [INFO] Worker exiting (pid: 14842)
+[2018-09-19 13:19:09 +0000] [14838] [INFO] Shutting down: Master
+[2018-09-19 13:19:09 +0000] [14838] [INFO] Reason: Worker failed to boot.
+Traceback (most recent call last):
+  File "/home/intel/.local/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/home/intel/.local/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/home/intel/.local/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/home/intel/.local/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/home/intel/.local/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/home/intel/.local/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/home/intel/.local/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+Traceback (most recent call last):
+  File "/home/intel/.local/bin/gunicorn", line 7, in <module>
+    from gunicorn.app.wsgiapp import run
+ImportError: No module named 'gunicorn'
+[2018-09-19 13:33:32 +0800] [15655] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 13:33:32 +0800] [15655] [INFO] Listening at: http://0.0.0.0:2345 (15655)
+[2018-09-19 13:33:32 +0800] [15655] [INFO] Using worker: sync
+[2018-09-19 13:33:32 +0800] [15658] [INFO] Booting worker with pid: 15658
+[2018-09-19 13:33:35 +0800] [15655] [INFO] Handling signal: term
+[2018-09-19 13:33:35 +0800] [15658] [INFO] Worker exiting (pid: 15658)
+[2018-09-19 13:33:36 +0800] [15655] [INFO] Shutting down: Master
+[2018-09-19 13:33:37 +0800] [15664] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 13:33:37 +0800] [15664] [INFO] Listening at: http://0.0.0.0:2345 (15664)
+[2018-09-19 13:33:37 +0800] [15664] [INFO] Using worker: sync
+[2018-09-19 13:33:37 +0800] [15674] [INFO] Booting worker with pid: 15674
+[2018-09-19 15:42:52 +0800] [15664] [INFO] Handling signal: term
+[2018-09-19 15:42:52 +0800] [15674] [INFO] Worker exiting (pid: 15674)
+[2018-09-19 15:42:52 +0800] [15664] [INFO] Shutting down: Master
+[2018-09-19 15:42:53 +0800] [15845] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:42:53 +0800] [15845] [INFO] Listening at: http://0.0.0.0:2345 (15845)
+[2018-09-19 15:42:53 +0800] [15845] [INFO] Using worker: sync
+[2018-09-19 15:42:53 +0800] [15848] [INFO] Booting worker with pid: 15848
+[2018-09-19 15:42:54 +0800] [15848] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:42:54 +0800] [15848] [INFO] Worker exiting (pid: 15848)
+[2018-09-19 15:42:54 +0800] [15845] [INFO] Shutting down: Master
+[2018-09-19 15:42:54 +0800] [15845] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:42:55 +0800] [15852] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:42:55 +0800] [15852] [INFO] Listening at: http://0.0.0.0:2345 (15852)
+[2018-09-19 15:42:55 +0800] [15852] [INFO] Using worker: sync
+[2018-09-19 15:42:55 +0800] [15855] [INFO] Booting worker with pid: 15855
+[2018-09-19 15:42:58 +0800] [15855] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:42:58 +0800] [15855] [INFO] Worker exiting (pid: 15855)
+[2018-09-19 15:42:58 +0800] [15852] [INFO] Shutting down: Master
+[2018-09-19 15:42:58 +0800] [15852] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:00 +0800] [15859] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:00 +0800] [15859] [INFO] Listening at: http://0.0.0.0:2345 (15859)
+[2018-09-19 15:43:00 +0800] [15859] [INFO] Using worker: sync
+[2018-09-19 15:43:00 +0800] [15862] [INFO] Booting worker with pid: 15862
+[2018-09-19 15:43:01 +0800] [15862] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:01 +0800] [15862] [INFO] Worker exiting (pid: 15862)
+[2018-09-19 15:43:01 +0800] [15859] [INFO] Shutting down: Master
+[2018-09-19 15:43:01 +0800] [15859] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:02 +0800] [15866] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:02 +0800] [15866] [INFO] Listening at: http://0.0.0.0:2345 (15866)
+[2018-09-19 15:43:02 +0800] [15866] [INFO] Using worker: sync
+[2018-09-19 15:43:02 +0800] [15869] [INFO] Booting worker with pid: 15869
+[2018-09-19 15:43:05 +0800] [15869] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:05 +0800] [15869] [INFO] Worker exiting (pid: 15869)
+[2018-09-19 15:43:06 +0800] [15866] [INFO] Shutting down: Master
+[2018-09-19 15:43:06 +0800] [15866] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:07 +0800] [15873] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:07 +0800] [15873] [INFO] Listening at: http://0.0.0.0:2345 (15873)
+[2018-09-19 15:43:07 +0800] [15873] [INFO] Using worker: sync
+[2018-09-19 15:43:07 +0800] [15876] [INFO] Booting worker with pid: 15876
+[2018-09-19 15:43:08 +0800] [15876] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:08 +0800] [15876] [INFO] Worker exiting (pid: 15876)
+[2018-09-19 15:43:08 +0800] [15873] [INFO] Shutting down: Master
+[2018-09-19 15:43:08 +0800] [15873] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:10 +0800] [15880] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:10 +0800] [15880] [INFO] Listening at: http://0.0.0.0:2345 (15880)
+[2018-09-19 15:43:10 +0800] [15880] [INFO] Using worker: sync
+[2018-09-19 15:43:10 +0800] [15883] [INFO] Booting worker with pid: 15883
+[2018-09-19 15:43:13 +0800] [15883] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:13 +0800] [15883] [INFO] Worker exiting (pid: 15883)
+[2018-09-19 15:43:13 +0800] [15880] [INFO] Shutting down: Master
+[2018-09-19 15:43:13 +0800] [15880] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:13 +0800] [15887] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:13 +0800] [15887] [INFO] Listening at: http://0.0.0.0:2345 (15887)
+[2018-09-19 15:43:13 +0800] [15887] [INFO] Using worker: sync
+[2018-09-19 15:43:13 +0800] [15891] [INFO] Booting worker with pid: 15891
+[2018-09-19 15:43:16 +0800] [15891] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:16 +0800] [15891] [INFO] Worker exiting (pid: 15891)
+[2018-09-19 15:43:17 +0800] [15887] [INFO] Shutting down: Master
+[2018-09-19 15:43:17 +0800] [15887] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:18 +0800] [15901] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:18 +0800] [15901] [INFO] Listening at: http://0.0.0.0:2345 (15901)
+[2018-09-19 15:43:18 +0800] [15901] [INFO] Using worker: sync
+[2018-09-19 15:43:18 +0800] [15904] [INFO] Booting worker with pid: 15904
+[2018-09-19 15:43:21 +0800] [15904] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:21 +0800] [15904] [INFO] Worker exiting (pid: 15904)
+[2018-09-19 15:43:21 +0800] [15901] [INFO] Shutting down: Master
+[2018-09-19 15:43:21 +0800] [15901] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:23 +0800] [15908] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:23 +0800] [15908] [INFO] Listening at: http://0.0.0.0:2345 (15908)
+[2018-09-19 15:43:23 +0800] [15908] [INFO] Using worker: sync
+[2018-09-19 15:43:23 +0800] [15911] [INFO] Booting worker with pid: 15911
+[2018-09-19 15:43:26 +0800] [15911] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:26 +0800] [15911] [INFO] Worker exiting (pid: 15911)
+[2018-09-19 15:43:26 +0800] [15908] [INFO] Shutting down: Master
+[2018-09-19 15:43:26 +0800] [15908] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:27 +0800] [15926] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:27 +0800] [15926] [INFO] Listening at: http://0.0.0.0:2345 (15926)
+[2018-09-19 15:43:27 +0800] [15926] [INFO] Using worker: sync
+[2018-09-19 15:43:27 +0800] [15929] [INFO] Booting worker with pid: 15929
+[2018-09-19 15:43:30 +0800] [15929] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:30 +0800] [15929] [INFO] Worker exiting (pid: 15929)
+[2018-09-19 15:43:30 +0800] [15926] [INFO] Shutting down: Master
+[2018-09-19 15:43:30 +0800] [15926] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:32 +0800] [15933] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:32 +0800] [15933] [INFO] Listening at: http://0.0.0.0:2345 (15933)
+[2018-09-19 15:43:32 +0800] [15933] [INFO] Using worker: sync
+[2018-09-19 15:43:32 +0800] [15936] [INFO] Booting worker with pid: 15936
+[2018-09-19 15:43:35 +0800] [15936] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:35 +0800] [15936] [INFO] Worker exiting (pid: 15936)
+[2018-09-19 15:43:35 +0800] [15933] [INFO] Shutting down: Master
+[2018-09-19 15:43:35 +0800] [15933] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:36 +0800] [15940] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:36 +0800] [15940] [INFO] Listening at: http://0.0.0.0:2345 (15940)
+[2018-09-19 15:43:36 +0800] [15940] [INFO] Using worker: sync
+[2018-09-19 15:43:36 +0800] [15943] [INFO] Booting worker with pid: 15943
+[2018-09-19 15:43:39 +0800] [15943] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:40 +0800] [15943] [INFO] Worker exiting (pid: 15943)
+[2018-09-19 15:43:40 +0800] [15940] [INFO] Shutting down: Master
+[2018-09-19 15:43:40 +0800] [15940] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:41 +0800] [15947] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:41 +0800] [15947] [INFO] Listening at: http://0.0.0.0:2345 (15947)
+[2018-09-19 15:43:41 +0800] [15947] [INFO] Using worker: sync
+[2018-09-19 15:43:41 +0800] [15950] [INFO] Booting worker with pid: 15950
+[2018-09-19 15:43:44 +0800] [15950] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:44 +0800] [15950] [INFO] Worker exiting (pid: 15950)
+[2018-09-19 15:43:44 +0800] [15947] [INFO] Shutting down: Master
+[2018-09-19 15:43:44 +0800] [15947] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:46 +0800] [15954] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:46 +0800] [15954] [INFO] Listening at: http://0.0.0.0:2345 (15954)
+[2018-09-19 15:43:46 +0800] [15954] [INFO] Using worker: sync
+[2018-09-19 15:43:46 +0800] [15957] [INFO] Booting worker with pid: 15957
+[2018-09-19 15:43:49 +0800] [15957] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:49 +0800] [15957] [INFO] Worker exiting (pid: 15957)
+[2018-09-19 15:43:49 +0800] [15954] [INFO] Shutting down: Master
+[2018-09-19 15:43:49 +0800] [15954] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:50 +0800] [15961] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:50 +0800] [15961] [INFO] Listening at: http://0.0.0.0:2345 (15961)
+[2018-09-19 15:43:50 +0800] [15961] [INFO] Using worker: sync
+[2018-09-19 15:43:50 +0800] [15964] [INFO] Booting worker with pid: 15964
+[2018-09-19 15:43:51 +0800] [15964] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:51 +0800] [15964] [INFO] Worker exiting (pid: 15964)
+[2018-09-19 15:43:52 +0800] [15961] [INFO] Shutting down: Master
+[2018-09-19 15:43:52 +0800] [15961] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:53 +0800] [15968] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:53 +0800] [15968] [INFO] Listening at: http://0.0.0.0:2345 (15968)
+[2018-09-19 15:43:53 +0800] [15968] [INFO] Using worker: sync
+[2018-09-19 15:43:53 +0800] [15971] [INFO] Booting worker with pid: 15971
+[2018-09-19 15:43:56 +0800] [15971] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 94, in <module>
+    print(hsdes.getUserbyIdsid("taoxinyi"))
+  File "/home/intel/xytao/hsdes.py", line 65, in getUserbyIdsid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:43:56 +0800] [15971] [INFO] Worker exiting (pid: 15971)
+[2018-09-19 15:43:56 +0800] [15968] [INFO] Shutting down: Master
+[2018-09-19 15:43:56 +0800] [15968] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:43:58 +0800] [15975] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:43:58 +0800] [15975] [INFO] Listening at: http://0.0.0.0:2345 (15975)
+[2018-09-19 15:43:58 +0800] [15975] [INFO] Using worker: sync
+[2018-09-19 15:43:58 +0800] [15978] [INFO] Booting worker with pid: 15978
+[2018-09-19 15:44:09 +0800] [15975] [INFO] Handling signal: term
+[2018-09-19 15:44:09 +0800] [15978] [INFO] Worker exiting (pid: 15978)
+[2018-09-19 15:44:09 +0800] [15975] [INFO] Shutting down: Master
+[2018-09-19 15:44:09 +0800] [15984] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:44:09 +0800] [15984] [INFO] Listening at: http://0.0.0.0:2345 (15984)
+[2018-09-19 15:44:09 +0800] [15984] [INFO] Using worker: sync
+[2018-09-19 15:44:09 +0800] [15987] [INFO] Booting worker with pid: 15987
+[2018-09-19 15:46:51 +0800] [15984] [INFO] Handling signal: term
+[2018-09-19 15:46:51 +0800] [15987] [INFO] Worker exiting (pid: 15987)
+[2018-09-19 15:46:51 +0800] [15984] [INFO] Shutting down: Master
+[2018-09-19 15:46:51 +0800] [16000] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:46:51 +0800] [16000] [INFO] Listening at: http://0.0.0.0:2345 (16000)
+[2018-09-19 15:46:51 +0800] [16000] [INFO] Using worker: sync
+[2018-09-19 15:46:51 +0800] [16003] [INFO] Booting worker with pid: 16003
+[2018-09-19 15:46:51 +0800] [16003] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 64
+    response_str = self.session.get(
+               ^
+IndentationError: expected an indented block
+[2018-09-19 15:46:51 +0800] [16003] [INFO] Worker exiting (pid: 16003)
+[2018-09-19 15:46:51 +0800] [16000] [INFO] Shutting down: Master
+[2018-09-19 15:46:51 +0800] [16000] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:46:53 +0800] [16004] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:46:53 +0800] [16004] [INFO] Listening at: http://0.0.0.0:2345 (16004)
+[2018-09-19 15:46:53 +0800] [16004] [INFO] Using worker: sync
+[2018-09-19 15:46:53 +0800] [16007] [INFO] Booting worker with pid: 16007
+[2018-09-19 15:46:53 +0800] [16007] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 64
+    response_str = self.session.get(
+               ^
+IndentationError: expected an indented block
+[2018-09-19 15:46:53 +0800] [16007] [INFO] Worker exiting (pid: 16007)
+[2018-09-19 15:46:53 +0800] [16004] [INFO] Shutting down: Master
+[2018-09-19 15:46:53 +0800] [16004] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:46:55 +0800] [16008] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:46:55 +0800] [16008] [INFO] Listening at: http://0.0.0.0:2345 (16008)
+[2018-09-19 15:46:55 +0800] [16008] [INFO] Using worker: sync
+[2018-09-19 15:46:55 +0800] [16011] [INFO] Booting worker with pid: 16011
+[2018-09-19 15:46:55 +0800] [16011] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 64
+    response_str = self.session.get(
+               ^
+IndentationError: expected an indented block
+[2018-09-19 15:46:55 +0800] [16011] [INFO] Worker exiting (pid: 16011)
+[2018-09-19 15:46:55 +0800] [16008] [INFO] Shutting down: Master
+[2018-09-19 15:46:55 +0800] [16008] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:46:59 +0800] [16012] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:46:59 +0800] [16012] [INFO] Listening at: http://0.0.0.0:2345 (16012)
+[2018-09-19 15:46:59 +0800] [16012] [INFO] Using worker: sync
+[2018-09-19 15:46:59 +0800] [16015] [INFO] Booting worker with pid: 16015
+[2018-09-19 15:46:59 +0800] [16015] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 64
+    response_str = self.session.get(
+               ^
+IndentationError: expected an indented block
+[2018-09-19 15:46:59 +0800] [16015] [INFO] Worker exiting (pid: 16015)
+[2018-09-19 15:46:59 +0800] [16012] [INFO] Shutting down: Master
+[2018-09-19 15:46:59 +0800] [16012] [INFO] Reason: Worker failed to boot.
+[2018-09-19 15:49:05 +0800] [16018] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:49:05 +0800] [16018] [INFO] Listening at: http://0.0.0.0:2345 (16018)
+[2018-09-19 15:49:05 +0800] [16018] [INFO] Using worker: sync
+[2018-09-19 15:49:05 +0800] [16021] [INFO] Booting worker with pid: 16021
+[2018-09-19 15:49:51,630] ERROR in app: Exception on /api/worker [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 127, in get
+    idsid, wwid = args['idsid'], args['wwid']
+KeyError: 'idsid'
+[2018-09-19 15:50:48 +0800] [16018] [INFO] Handling signal: term
+[2018-09-19 15:50:48 +0800] [16021] [INFO] Worker exiting (pid: 16021)
+[2018-09-19 15:50:49 +0800] [16018] [INFO] Shutting down: Master
+[2018-09-19 15:50:49 +0800] [16030] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:50:49 +0800] [16030] [INFO] Listening at: http://0.0.0.0:2345 (16030)
+[2018-09-19 15:50:49 +0800] [16030] [INFO] Using worker: sync
+[2018-09-19 15:50:49 +0800] [16033] [INFO] Booting worker with pid: 16033
+[2018-09-19 15:50:54,858] ERROR in app: Exception on /api/worker [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 133, in get
+    a = hsdes.getUserbyWwid(wwid)
+  File "/home/intel/xytao/hsdes.py", line 82, in getUserbyWwid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:53:30,181] ERROR in app: Exception on /api/worker [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 133, in get
+    a = hsdes.getUserbyWwid(wwid)
+  File "/home/intel/xytao/hsdes.py", line 82, in getUserbyWwid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-19 15:54:06 +0800] [16030] [INFO] Handling signal: term
+[2018-09-19 15:54:06 +0800] [16033] [INFO] Worker exiting (pid: 16033)
+[2018-09-19 15:54:06 +0800] [16030] [INFO] Shutting down: Master
+[2018-09-19 15:54:07 +0800] [16039] [INFO] Starting gunicorn 19.9.0
+[2018-09-19 15:54:07 +0800] [16039] [INFO] Listening at: http://0.0.0.0:2345 (16039)
+[2018-09-19 15:54:07 +0800] [16039] [INFO] Using worker: sync
+[2018-09-19 15:54:07 +0800] [16042] [INFO] Booting worker with pid: 16042
+[2018-09-19 15:54:13,000] ERROR in app: Exception on /api/worker [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 134, in get
+    a = hsdes.getUserbyWwid(wwid)
+  File "/home/intel/xytao/hsdes.py", line 83, in getUserbyWwid
+    workers = json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-20 08:50:57,090] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 116, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 47, in query
+    return json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-20 08:51:12,507] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 116, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 47, in query
+    return json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-20 10:56:34,045] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 116, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 46, in query
+    verify=False).text
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/adapters.py", line 495, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+[2018-09-20 12:22:29 +0800] [16039] [INFO] Handling signal: term
+[2018-09-20 12:22:29 +0800] [16042] [INFO] Worker exiting (pid: 16042)
+[2018-09-20 12:22:29 +0800] [16039] [INFO] Shutting down: Master
+[2018-09-20 12:22:30 +0800] [17572] [INFO] Starting gunicorn 19.9.0
+[2018-09-20 12:22:30 +0800] [17572] [INFO] Listening at: http://0.0.0.0:2345 (17572)
+[2018-09-20 12:22:30 +0800] [17572] [INFO] Using worker: sync
+[2018-09-20 12:22:30 +0800] [17575] [INFO] Booting worker with pid: 17575
+[2018-09-21 08:56:29,859] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 116, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 47, in query
+    return json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-21 08:56:47,345] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 116, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 47, in query
+    return json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-21 09:05:37 +0800] [17572] [INFO] Handling signal: term
+[2018-09-21 09:05:37 +0800] [17575] [INFO] Worker exiting (pid: 17575)
+[2018-09-21 09:05:37 +0800] [17572] [INFO] Shutting down: Master
+[2018-09-21 09:05:38 +0800] [20197] [INFO] Starting gunicorn 19.9.0
+[2018-09-21 09:05:38 +0800] [20197] [INFO] Listening at: http://0.0.0.0:2345 (20197)
+[2018-09-21 09:05:38 +0800] [20197] [INFO] Using worker: sync
+[2018-09-21 09:05:38 +0800] [20200] [INFO] Booting worker with pid: 20200
+[2018-09-21 09:05:45,064] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 123, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 53, in query
+    verify=False).text
+TypeError: kerberos_retry_request() takes 0 positional arguments but 1 was given
+[2018-09-21 09:06:24 +0800] [20197] [INFO] Handling signal: term
+[2018-09-21 09:06:24 +0800] [20200] [INFO] Worker exiting (pid: 20200)
+[2018-09-21 09:06:24 +0800] [20197] [INFO] Shutting down: Master
+[2018-09-21 09:06:24 +0800] [20216] [INFO] Starting gunicorn 19.9.0
+[2018-09-21 09:06:24 +0800] [20216] [INFO] Listening at: http://0.0.0.0:2345 (20216)
+[2018-09-21 09:06:24 +0800] [20216] [INFO] Using worker: sync
+[2018-09-21 09:06:24 +0800] [20219] [INFO] Booting worker with pid: 20219
+[2018-09-21 09:06:28,941] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 123, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 54, in query
+    return json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-21 09:24:40 +0800] [20216] [INFO] Handling signal: term
+[2018-09-21 09:24:40 +0800] [20219] [INFO] Worker exiting (pid: 20219)
+[2018-09-21 09:24:40 +0800] [20216] [INFO] Shutting down: Master
+[2018-09-21 09:24:41 +0800] [20382] [INFO] Starting gunicorn 19.9.0
+[2018-09-21 09:24:41 +0800] [20382] [INFO] Listening at: http://0.0.0.0:2345 (20382)
+[2018-09-21 09:24:41 +0800] [20382] [INFO] Using worker: sync
+[2018-09-21 09:24:41 +0800] [20385] [INFO] Booting worker with pid: 20385
+[2018-09-25 13:01:45,694] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 139, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 69, in query
+    return json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-25 13:03:58 +0800] [20382] [INFO] Handling signal: term
+[2018-09-25 13:03:58 +0800] [20385] [INFO] Worker exiting (pid: 20385)
+[2018-09-25 13:03:58 +0800] [20382] [INFO] Shutting down: Master
+[2018-09-25 13:03:59 +0800] [25564] [INFO] Starting gunicorn 19.9.0
+[2018-09-25 13:03:59 +0800] [25564] [INFO] Listening at: http://0.0.0.0:2345 (25564)
+[2018-09-25 13:03:59 +0800] [25564] [INFO] Using worker: sync
+[2018-09-25 13:03:59 +0800] [25567] [INFO] Booting worker with pid: 25567
+[2018-09-25 13:04:05,043] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 142, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 72, in query
+    return json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-09-25 13:06:40 +0800] [25564] [INFO] Handling signal: term
+[2018-09-25 13:06:40 +0800] [25567] [INFO] Worker exiting (pid: 25567)
+[2018-09-25 13:06:41 +0800] [25564] [INFO] Shutting down: Master
+[2018-09-25 13:06:41 +0800] [25580] [INFO] Starting gunicorn 19.9.0
+[2018-09-25 13:06:41 +0800] [25580] [INFO] Listening at: http://0.0.0.0:2345 (25580)
+[2018-09-25 13:06:41 +0800] [25580] [INFO] Using worker: sync
+[2018-09-25 13:06:41 +0800] [25583] [INFO] Booting worker with pid: 25583
+[2018-09-25 13:06:46,541] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 143, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 72, in query
+    verify=False).text
+  File "/home/intel/xytao/hsdes.py", line 32, in kerberos_retry_post_request
+    print(response.status)
+AttributeError: 'Response' object has no attribute 'status'
+[2018-09-25 13:08:51,720] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 143, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 72, in query
+    verify=False).text
+  File "/home/intel/xytao/hsdes.py", line 32, in kerberos_retry_post_request
+    print(response.status)
+AttributeError: 'Response' object has no attribute 'status'
+[2018-09-25 13:09:55 +0800] [25580] [INFO] Handling signal: term
+[2018-09-25 13:09:55 +0800] [25583] [INFO] Worker exiting (pid: 25583)
+[2018-09-25 13:09:55 +0800] [25580] [INFO] Shutting down: Master
+[2018-09-25 13:09:55 +0800] [25616] [INFO] Starting gunicorn 19.9.0
+[2018-09-25 13:09:55 +0800] [25616] [INFO] Listening at: http://0.0.0.0:2345 (25616)
+[2018-09-25 13:09:55 +0800] [25616] [INFO] Using worker: sync
+[2018-09-25 13:09:55 +0800] [25619] [INFO] Booting worker with pid: 25619
+[2018-09-25 13:53:00 +0800] [25616] [INFO] Handling signal: term
+[2018-09-25 13:53:00 +0800] [25619] [INFO] Worker exiting (pid: 25619)
+[2018-09-25 13:53:00 +0800] [25616] [INFO] Shutting down: Master
+[2018-09-25 13:53:00 +0800] [29903] [INFO] Starting gunicorn 19.9.0
+[2018-09-25 13:53:00 +0800] [29903] [INFO] Listening at: http://0.0.0.0:2345 (29903)
+[2018-09-25 13:53:00 +0800] [29903] [INFO] Using worker: sync
+[2018-09-25 13:53:00 +0800] [29906] [INFO] Booting worker with pid: 29906
+[2018-09-25 14:01:36 +0800] [29903] [INFO] Handling signal: term
+[2018-09-25 14:01:36 +0800] [29906] [INFO] Worker exiting (pid: 29906)
+[2018-09-25 14:01:36 +0800] [29903] [INFO] Shutting down: Master
+[2018-09-25 14:01:37 +0800] [29924] [INFO] Starting gunicorn 19.9.0
+[2018-09-25 14:01:37 +0800] [29924] [INFO] Listening at: http://0.0.0.0:2345 (29924)
+[2018-09-25 14:01:37 +0800] [29924] [INFO] Using worker: sync
+[2018-09-25 14:01:37 +0800] [29927] [INFO] Booting worker with pid: 29927
+[2018-09-25 16:16:49 +0800] [29924] [CRITICAL] WORKER TIMEOUT (pid:29927)
+[2018-09-25 16:16:49 +0800] [29927] [INFO] Worker exiting (pid: 29927)
+[2018-09-25 16:16:49 +0800] [29946] [INFO] Booting worker with pid: 29946
+[2018-09-25 16:17:26 +0800] [29924] [CRITICAL] WORKER TIMEOUT (pid:29946)
+[2018-09-25 16:17:26 +0800] [29946] [INFO] Worker exiting (pid: 29946)
+[2018-09-25 16:17:26 +0800] [29952] [INFO] Booting worker with pid: 29952
+[2018-09-28 10:31:26 +0800] [29924] [INFO] Handling signal: term
+[2018-09-28 10:31:26 +0800] [29952] [INFO] Worker exiting (pid: 29952)
+[2018-09-28 10:31:26 +0800] [29924] [INFO] Shutting down: Master
+[2018-09-28 10:31:27 +0800] [3725] [INFO] Starting gunicorn 19.9.0
+[2018-09-28 10:31:27 +0800] [3725] [INFO] Listening at: http://0.0.0.0:2345 (3725)
+[2018-09-28 10:31:27 +0800] [3725] [INFO] Using worker: sync
+[2018-09-28 10:31:27 +0800] [3728] [INFO] Booting worker with pid: 3728
+[2018-09-29 10:32:37,308] ERROR in app: Exception on /api/perforce/list [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 199, in get
+    a = perforce.getChanges(args['path'],args['start'],args['end'])
+  File "/home/intel/xytao/hsdes.py", line 158, in getChanges
+    l=self.p4.run("changes",path)
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 611, in run
+    raise e
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 605, in run
+    result = P4API.P4Adapter.run(self, *flatArgs)
+P4.P4Exception: [P4#run] Errors during command execution( "p4 changes //gfx_Development/DEV/DEV_Media/Source/media/.clang-format@2017/05/01,@2018/01/01" )
+
+	[Error]: 'Your session has expired, please login again.'
+
+
+[2018-09-29 10:36:08,781] ERROR in app: Exception on /api/perforce/list [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 199, in get
+    a = perforce.getChanges(args['path'],args['start'],args['end'])
+  File "/home/intel/xytao/hsdes.py", line 158, in getChanges
+    l=self.p4.run("changes",path)
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 611, in run
+    raise e
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 605, in run
+    result = P4API.P4Adapter.run(self, *flatArgs)
+P4.P4Exception: [P4#run] Errors during command execution( "p4 changes //gfx_Development/DEV/DEV_Media/Source/media/.clang-format@2017/05/01,@2018/01/01" )
+
+	[Error]: 'Your session has expired, please login again.'
+
+
+[2018-09-29 10:40:45 +0800] [3725] [INFO] Handling signal: term
+[2018-09-29 10:40:45 +0800] [3728] [INFO] Worker exiting (pid: 3728)
+[2018-09-29 10:40:45 +0800] [3725] [INFO] Shutting down: Master
+[2018-09-29 10:40:45 +0800] [4830] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 10:40:45 +0800] [4830] [INFO] Listening at: http://0.0.0.0:2345 (4830)
+[2018-09-29 10:40:45 +0800] [4830] [INFO] Using worker: sync
+[2018-09-29 10:40:45 +0800] [4833] [INFO] Booting worker with pid: 4833
+[2018-09-29 11:29:07 +0800] [4830] [INFO] Handling signal: term
+[2018-09-29 11:29:07 +0800] [4833] [INFO] Worker exiting (pid: 4833)
+[2018-09-29 11:29:07 +0800] [4830] [INFO] Shutting down: Master
+[2018-09-29 11:29:08 +0800] [4843] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 11:29:08 +0800] [4843] [INFO] Listening at: http://0.0.0.0:2345 (4843)
+[2018-09-29 11:29:08 +0800] [4843] [INFO] Using worker: sync
+[2018-09-29 11:29:08 +0800] [4846] [INFO] Booting worker with pid: 4846
+[2018-09-29 12:16:53 +0800] [4843] [CRITICAL] WORKER TIMEOUT (pid:4846)
+[2018-09-29 12:16:54 +0800] [4852] [INFO] Booting worker with pid: 4852
+[2018-09-29 13:54:54 +0800] [4843] [INFO] Handling signal: term
+[2018-09-29 13:54:54 +0800] [4852] [INFO] Worker exiting (pid: 4852)
+[2018-09-29 13:54:54 +0800] [4843] [INFO] Shutting down: Master
+[2018-09-29 13:54:55 +0800] [5095] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 13:54:55 +0800] [5095] [INFO] Listening at: http://0.0.0.0:2345 (5095)
+[2018-09-29 13:54:55 +0800] [5095] [INFO] Using worker: sync
+[2018-09-29 13:54:55 +0800] [5098] [INFO] Booting worker with pid: 5098
+[2018-09-29 13:55:10 +0800] [5095] [INFO] Handling signal: term
+[2018-09-29 13:55:10 +0800] [5098] [INFO] Worker exiting (pid: 5098)
+[2018-09-29 13:55:10 +0800] [5095] [INFO] Shutting down: Master
+[2018-09-29 13:55:10 +0800] [5103] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 13:55:10 +0800] [5103] [INFO] Listening at: http://0.0.0.0:2345 (5103)
+[2018-09-29 13:55:10 +0800] [5103] [INFO] Using worker: sync
+[2018-09-29 13:55:10 +0800] [5106] [INFO] Booting worker with pid: 5106
+[2018-09-29 13:55:10 +0800] [5106] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 170
+    'changes':l,
+            ^
+SyntaxError: invalid syntax
+[2018-09-29 13:55:10 +0800] [5106] [INFO] Worker exiting (pid: 5106)
+[2018-09-29 13:55:10 +0800] [5103] [INFO] Shutting down: Master
+[2018-09-29 13:55:10 +0800] [5103] [INFO] Reason: Worker failed to boot.
+[2018-09-29 13:55:12 +0800] [5107] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 13:55:12 +0800] [5107] [INFO] Listening at: http://0.0.0.0:2345 (5107)
+[2018-09-29 13:55:12 +0800] [5107] [INFO] Using worker: sync
+[2018-09-29 13:55:12 +0800] [5110] [INFO] Booting worker with pid: 5110
+[2018-09-29 13:55:12 +0800] [5110] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 170
+    'changes':l,
+            ^
+SyntaxError: invalid syntax
+[2018-09-29 13:55:12 +0800] [5110] [INFO] Worker exiting (pid: 5110)
+[2018-09-29 13:55:12 +0800] [5107] [INFO] Shutting down: Master
+[2018-09-29 13:55:12 +0800] [5107] [INFO] Reason: Worker failed to boot.
+[2018-09-29 13:55:14 +0800] [5111] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 13:55:14 +0800] [5111] [INFO] Listening at: http://0.0.0.0:2345 (5111)
+[2018-09-29 13:55:14 +0800] [5111] [INFO] Using worker: sync
+[2018-09-29 13:55:14 +0800] [5114] [INFO] Booting worker with pid: 5114
+[2018-09-29 13:55:14 +0800] [5114] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 170
+    'changes':l,
+            ^
+SyntaxError: invalid syntax
+[2018-09-29 13:55:14 +0800] [5114] [INFO] Worker exiting (pid: 5114)
+[2018-09-29 13:55:14 +0800] [5111] [INFO] Shutting down: Master
+[2018-09-29 13:55:14 +0800] [5111] [INFO] Reason: Worker failed to boot.
+[2018-09-29 13:55:18 +0800] [5115] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 13:55:18 +0800] [5115] [INFO] Listening at: http://0.0.0.0:2345 (5115)
+[2018-09-29 13:55:18 +0800] [5115] [INFO] Using worker: sync
+[2018-09-29 13:55:18 +0800] [5118] [INFO] Booting worker with pid: 5118
+[2018-09-29 13:55:18 +0800] [5118] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/arbiter.py", line 583, in spawn_worker
+    worker.init_process()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 129, in init_process
+    self.load_wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/workers/base.py", line 138, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 52, in load
+    return self.load_wsgiapp()
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/app/wsgiapp.py", line 41, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/intel/.local/lib/python3.5/site-packages/gunicorn/util.py", line 350, in import_app
+    __import__(module)
+  File "/home/intel/xytao/hsdes.py", line 170
+    'changes':l,
+            ^
+SyntaxError: invalid syntax
+[2018-09-29 13:55:18 +0800] [5118] [INFO] Worker exiting (pid: 5118)
+[2018-09-29 13:55:18 +0800] [5115] [INFO] Shutting down: Master
+[2018-09-29 13:55:18 +0800] [5115] [INFO] Reason: Worker failed to boot.
+[2018-09-29 13:55:35 +0800] [5121] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 13:55:35 +0800] [5121] [INFO] Listening at: http://0.0.0.0:2345 (5121)
+[2018-09-29 13:55:35 +0800] [5121] [INFO] Using worker: sync
+[2018-09-29 13:55:35 +0800] [5124] [INFO] Booting worker with pid: 5124
+[2018-09-29 13:58:20 +0800] [5121] [INFO] Handling signal: term
+[2018-09-29 13:58:20 +0800] [5124] [INFO] Worker exiting (pid: 5124)
+[2018-09-29 13:58:21 +0800] [5121] [INFO] Shutting down: Master
+[2018-09-29 13:58:21 +0800] [5129] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 13:58:21 +0800] [5129] [INFO] Listening at: http://0.0.0.0:2345 (5129)
+[2018-09-29 13:58:21 +0800] [5129] [INFO] Using worker: sync
+[2018-09-29 13:58:21 +0800] [5132] [INFO] Booting worker with pid: 5132
+[2018-09-29 13:59:04 +0800] [5129] [INFO] Handling signal: term
+[2018-09-29 13:59:04 +0800] [5132] [INFO] Worker exiting (pid: 5132)
+[2018-09-29 13:59:04 +0800] [5129] [INFO] Shutting down: Master
+[2018-09-29 13:59:05 +0800] [5137] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 13:59:05 +0800] [5137] [INFO] Listening at: http://0.0.0.0:2345 (5137)
+[2018-09-29 13:59:05 +0800] [5137] [INFO] Using worker: sync
+[2018-09-29 13:59:05 +0800] [5141] [INFO] Booting worker with pid: 5141
+[2018-09-29 14:02:44 +0800] [5137] [INFO] Handling signal: term
+[2018-09-29 14:02:44 +0800] [5141] [INFO] Worker exiting (pid: 5141)
+[2018-09-29 14:02:44 +0800] [5137] [INFO] Shutting down: Master
+[2018-09-29 14:02:44 +0800] [5146] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 14:02:44 +0800] [5146] [INFO] Listening at: http://0.0.0.0:2345 (5146)
+[2018-09-29 14:02:44 +0800] [5146] [INFO] Using worker: sync
+[2018-09-29 14:02:44 +0800] [5149] [INFO] Booting worker with pid: 5149
+[2018-09-29 14:04:31 +0800] [5146] [INFO] Handling signal: term
+[2018-09-29 14:04:31 +0800] [5149] [INFO] Worker exiting (pid: 5149)
+[2018-09-29 14:04:31 +0800] [5146] [INFO] Shutting down: Master
+[2018-09-29 14:04:32 +0800] [5154] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 14:04:32 +0800] [5154] [INFO] Listening at: http://0.0.0.0:2345 (5154)
+[2018-09-29 14:04:32 +0800] [5154] [INFO] Using worker: sync
+[2018-09-29 14:04:32 +0800] [5157] [INFO] Booting worker with pid: 5157
+[2018-09-29 14:04:58 +0800] [5154] [INFO] Handling signal: term
+[2018-09-29 14:04:58 +0800] [5157] [INFO] Worker exiting (pid: 5157)
+[2018-09-29 14:04:58 +0800] [5154] [INFO] Shutting down: Master
+[2018-09-29 14:04:59 +0800] [5162] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 14:04:59 +0800] [5162] [INFO] Listening at: http://0.0.0.0:2345 (5162)
+[2018-09-29 14:04:59 +0800] [5162] [INFO] Using worker: sync
+[2018-09-29 14:04:59 +0800] [5165] [INFO] Booting worker with pid: 5165
+[2018-09-29 14:05:12 +0800] [5162] [INFO] Handling signal: term
+[2018-09-29 14:05:12 +0800] [5165] [INFO] Worker exiting (pid: 5165)
+[2018-09-29 14:05:13 +0800] [5162] [INFO] Shutting down: Master
+[2018-09-29 14:05:13 +0800] [5170] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 14:05:13 +0800] [5170] [INFO] Listening at: http://0.0.0.0:2345 (5170)
+[2018-09-29 14:05:13 +0800] [5170] [INFO] Using worker: sync
+[2018-09-29 14:05:13 +0800] [5173] [INFO] Booting worker with pid: 5173
+[2018-09-29 14:08:32 +0800] [5170] [INFO] Handling signal: term
+[2018-09-29 14:08:32 +0800] [5173] [INFO] Worker exiting (pid: 5173)
+[2018-09-29 14:08:32 +0800] [5170] [INFO] Shutting down: Master
+[2018-09-29 14:08:33 +0800] [5178] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 14:08:33 +0800] [5178] [INFO] Listening at: http://0.0.0.0:2345 (5178)
+[2018-09-29 14:08:33 +0800] [5178] [INFO] Using worker: sync
+[2018-09-29 14:08:33 +0800] [5181] [INFO] Booting worker with pid: 5181
+[2018-09-29 14:12:48 +0800] [5178] [INFO] Handling signal: term
+[2018-09-29 14:12:48 +0800] [5181] [INFO] Worker exiting (pid: 5181)
+[2018-09-29 14:12:48 +0800] [5178] [INFO] Shutting down: Master
+[2018-09-29 14:12:48 +0800] [5276] [INFO] Starting gunicorn 19.9.0
+[2018-09-29 14:12:48 +0800] [5276] [INFO] Listening at: http://0.0.0.0:2345 (5276)
+[2018-09-29 14:12:48 +0800] [5276] [INFO] Using worker: sync
+[2018-09-29 14:12:48 +0800] [5279] [INFO] Booting worker with pid: 5279
+[2018-10-05 01:28:17,385] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 195, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 74, in query
+    return json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-10-05 01:28:39,785] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 195, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 74, in query
+    return json.loads(response_str)
+  File "/usr/lib/python3.5/json/__init__.py", line 319, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.5/json/decoder.py", line 339, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.5/json/decoder.py", line 357, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2018-10-08 10:23:50,156] ERROR in app: Exception on /api/hsdes/query [GET]
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/packages/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "/home/intel/.local/lib/python3.5/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.5/http/client.py", line 1197, in getresponse
+    response.begin()
+  File "/usr/lib/python3.5/http/client.py", line 297, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.5/http/client.py", line 266, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 195, in get
+    a = hsdes.query({"eql": args['eql']})
+  File "/home/intel/xytao/hsdes.py", line 73, in query
+    verify=False).text
+  File "/home/intel/xytao/hsdes.py", line 32, in kerberos_retry_post_request
+    response=self.session.post(**kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/sessions.py", line 559, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/requests/adapters.py", line 495, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response',))
+[2018-10-09 15:11:20,104] ERROR in app: Exception on /api/perforce/list [GET]
+Traceback (most recent call last):
+  File "/home/intel/xytao/hsdes.py", line 164, in getChanges
+    l=self.p4.run("changes",path)
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 611, in run
+    raise e
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 605, in run
+    result = P4API.P4Adapter.run(self, *flatArgs)
+P4.P4Exception: [P4#run] Errors during command execution( "p4 changes //gfx_Development/DEV/DEV_Media/Source/media/...@2018/09/01,@2018/09/20" )
+
+	[Error]: 'TCP send failed.\nwrite: socket: Connection timed out'
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 210, in get
+    a = perforce.getChanges(args['path'],args['start'],args['end'])
+  File "/home/intel/xytao/hsdes.py", line 166, in getChanges
+    self.p4.run_login()
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 665, in run_login
+    return self.run("login", *args, **kargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 611, in run
+    raise e
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 605, in run
+    result = P4API.P4Adapter.run(self, *flatArgs)
+P4.P4Exception: [P4#run] Errors during command execution( "p4 login" )
+
+	[Error]: 'TCP send failed.\nwrite: socket: Connection timed out'
+
+
+[2018-10-09 15:12:18,590] ERROR in app: Exception on /api/perforce/list [GET]
+Traceback (most recent call last):
+  File "/home/intel/xytao/hsdes.py", line 164, in getChanges
+    l=self.p4.run("changes",path)
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 611, in run
+    raise e
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 605, in run
+    result = P4API.P4Adapter.run(self, *flatArgs)
+P4.P4Exception: [P4#run] Errors during command execution( "p4 changes //gfx_Development/DEV/DEV_Media/Source/media/...@2018/09/01,@2018/09/20" )
+
+	[Error]: 'TCP send failed.\nwrite: socket: Connection timed out'
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 480, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/flask_restful/__init__.py", line 595, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/home/intel/xytao/hsdes.py", line 210, in get
+    a = perforce.getChanges(args['path'],args['start'],args['end'])
+  File "/home/intel/xytao/hsdes.py", line 166, in getChanges
+    self.p4.run_login()
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 665, in run_login
+    return self.run("login", *args, **kargs)
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 611, in run
+    raise e
+  File "/home/intel/.local/lib/python3.5/site-packages/P4.py", line 605, in run
+    result = P4API.P4Adapter.run(self, *flatArgs)
+P4.P4Exception: [P4#run] Errors during command execution( "p4 login" )
+
+	[Error]: 'TCP send failed.\nwrite: socket: Connection timed out'
+
+

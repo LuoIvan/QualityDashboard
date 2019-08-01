@@ -1,0 +1,307 @@
+2018-08-29 10:32:32,338 CRIT Supervisor running as root (no user in config file)
+2018-08-29 10:32:32,339 WARN No file matches via include "/etc/supervisor/conf.d/*.conf"
+2018-08-29 10:32:32,429 INFO RPC interface 'supervisor' initialized
+2018-08-29 10:32:32,429 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-08-29 10:32:32,430 INFO supervisord started with pid 6911
+2018-08-29 10:35:03,422 CRIT Supervisor running as root (no user in config file)
+2018-08-29 10:35:03,422 WARN Included extra file "/etc/supervisor/conf.d/node.conf" during parsing
+2018-08-29 10:35:03,423 INFO RPC interface 'supervisor' initialized
+2018-08-29 10:35:03,423 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-08-29 10:35:03,423 INFO supervisord started with pid 6911
+2018-08-29 10:35:04,427 INFO spawned: 'node' with pid 6992
+2018-08-29 10:35:05,430 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-03 10:14:55,423 INFO waiting for node to stop
+2018-09-03 10:14:55,426 INFO stopped: node (terminated by SIGTERM)
+2018-09-03 10:15:07,028 INFO spawned: 'node' with pid 30839
+2018-09-03 10:15:08,030 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:08:08,918 INFO waiting for node to die
+2018-09-06 09:08:09,106 INFO stopped: node (terminated by SIGTERM)
+2018-09-06 09:08:09,106 WARN received SIGTERM indicating exit request
+2018-09-06 09:08:33,262 CRIT Supervisor running as root (no user in config file)
+2018-09-06 09:08:33,272 WARN Included extra file "/etc/supervisor/conf.d/node.conf" during parsing
+2018-09-06 09:08:33,558 INFO RPC interface 'supervisor' initialized
+2018-09-06 09:08:33,558 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-06 09:08:33,558 INFO supervisord started with pid 1153
+2018-09-06 09:08:34,561 INFO spawned: 'node' with pid 1540
+2018-09-06 09:08:35,605 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:31,472 INFO waiting for node to stop
+2018-09-06 09:23:31,478 INFO stopped: node (terminated by SIGTERM)
+2018-09-06 09:23:34,808 INFO spawned: 'node' with pid 2913
+2018-09-06 09:23:35,811 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:35,966 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:36,970 INFO spawned: 'node' with pid 2920
+2018-09-06 09:23:37,972 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:38,106 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:39,109 INFO spawned: 'node' with pid 2927
+2018-09-06 09:23:40,112 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:40,257 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:41,261 INFO spawned: 'node' with pid 2934
+2018-09-06 09:23:42,263 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:42,404 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:43,408 INFO spawned: 'node' with pid 2941
+2018-09-06 09:23:44,410 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:44,552 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:45,555 INFO spawned: 'node' with pid 2948
+2018-09-06 09:23:46,558 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:46,700 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:47,703 INFO spawned: 'node' with pid 2955
+2018-09-06 09:23:48,704 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:48,847 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:49,850 INFO spawned: 'node' with pid 2962
+2018-09-06 09:23:50,852 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:50,993 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:51,996 INFO spawned: 'node' with pid 2969
+2018-09-06 09:23:52,999 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:53,139 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:54,142 INFO spawned: 'node' with pid 2976
+2018-09-06 09:23:55,144 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:55,298 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:56,301 INFO spawned: 'node' with pid 2983
+2018-09-06 09:23:57,304 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:57,452 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:23:58,455 INFO spawned: 'node' with pid 2990
+2018-09-06 09:23:59,458 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:23:59,601 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:00,604 INFO spawned: 'node' with pid 2997
+2018-09-06 09:24:01,607 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:01,746 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:02,750 INFO spawned: 'node' with pid 3004
+2018-09-06 09:24:03,752 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:03,900 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:04,904 INFO spawned: 'node' with pid 3011
+2018-09-06 09:24:05,906 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:06,049 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:07,052 INFO spawned: 'node' with pid 3018
+2018-09-06 09:24:08,055 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:08,195 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:09,198 INFO spawned: 'node' with pid 3025
+2018-09-06 09:24:10,200 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:10,337 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:11,341 INFO spawned: 'node' with pid 3032
+2018-09-06 09:24:12,343 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:12,496 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:13,499 INFO spawned: 'node' with pid 3039
+2018-09-06 09:24:14,502 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:14,635 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:15,638 INFO spawned: 'node' with pid 3046
+2018-09-06 09:24:16,640 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:16,782 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:17,786 INFO spawned: 'node' with pid 3053
+2018-09-06 09:24:18,788 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:18,937 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:19,941 INFO spawned: 'node' with pid 3060
+2018-09-06 09:24:20,943 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:21,088 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:22,091 INFO spawned: 'node' with pid 3067
+2018-09-06 09:24:23,092 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:23,230 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:24,233 INFO spawned: 'node' with pid 3074
+2018-09-06 09:24:25,235 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-06 09:24:25,380 INFO exited: node (exit status 1; not expected)
+2018-09-06 09:24:26,121 INFO spawned: 'node' with pid 3083
+2018-09-06 09:24:26,129 INFO waiting for node to stop
+2018-09-06 09:24:27,459 INFO stopped: node (exit status 1)
+2018-09-06 09:25:24,488 INFO spawned: 'node' with pid 3134
+2018-09-06 09:25:25,491 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 13:04:00,417 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:04:01,419 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:04:03,422 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:04:06,426 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:04:06,426 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:04:42,453 INFO waiting for node to die
+2018-09-19 13:04:42,465 INFO stopped: node (terminated by SIGTERM)
+2018-09-19 13:04:42,476 CRIT Supervisor running as root (no user in config file)
+2018-09-19 13:04:42,476 WARN Included extra file "/etc/supervisor/conf.d/node.conf" during parsing
+2018-09-19 13:04:42,477 INFO RPC interface 'supervisor' initialized
+2018-09-19 13:04:42,477 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-19 13:04:42,477 INFO supervisord started with pid 1153
+2018-09-19 13:04:43,479 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:04:43,481 INFO spawned: 'node' with pid 13743
+2018-09-19 13:04:44,484 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:04:44,489 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 13:04:46,702 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:04:50,135 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:04:50,135 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:05:59,302 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:06:00,305 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:06:02,308 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:06:05,312 INFO spawnerr: can't find command 'cd'
+2018-09-19 13:06:05,312 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:09:02,417 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:09:03,420 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:09:06,330 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:09:09,334 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:09:09,334 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:11:56,270 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:11:57,273 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:11:59,276 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:12:00,287 INFO waiting for hsdes, node to die
+2018-09-19 13:12:00,295 INFO stopped: node (terminated by SIGTERM)
+2018-09-19 13:12:00,306 CRIT Supervisor running as root (no user in config file)
+2018-09-19 13:12:00,307 WARN Included extra file "/etc/supervisor/conf.d/node.conf" during parsing
+2018-09-19 13:12:00,308 INFO RPC interface 'supervisor' initialized
+2018-09-19 13:12:00,308 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-19 13:12:00,309 INFO supervisord started with pid 1153
+2018-09-19 13:12:01,310 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:12:01,313 INFO spawned: 'node' with pid 13812
+2018-09-19 13:12:02,316 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:12:02,316 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 13:12:05,311 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:12:08,315 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:12:08,315 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:17:25,498 INFO spawned: 'hsdes' with pid 13904
+2018-09-19 13:17:25,697 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:17:26,701 INFO spawned: 'hsdes' with pid 13905
+2018-09-19 13:17:26,901 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:17:28,907 INFO spawned: 'hsdes' with pid 13906
+2018-09-19 13:17:29,108 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:17:32,114 INFO spawned: 'hsdes' with pid 13907
+2018-09-19 13:17:32,314 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:17:33,316 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:19:02,780 INFO spawned: 'hsdes' with pid 14823
+2018-09-19 13:19:03,059 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 13:19:04,065 INFO spawned: 'hsdes' with pid 14828
+2018-09-19 13:19:04,340 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 13:19:06,344 INFO spawned: 'hsdes' with pid 14833
+2018-09-19 13:19:06,620 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 13:19:09,625 INFO spawned: 'hsdes' with pid 14838
+2018-09-19 13:19:09,902 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 13:19:10,903 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:25:44,942 INFO spawned: 'hsdes' with pid 15614
+2018-09-19 13:25:45,145 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:25:46,148 INFO spawned: 'hsdes' with pid 15615
+2018-09-19 13:25:46,349 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:25:48,353 INFO spawned: 'hsdes' with pid 15616
+2018-09-19 13:25:48,554 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:25:52,495 INFO spawned: 'hsdes' with pid 15619
+2018-09-19 13:25:52,697 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:25:53,698 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:27:06,396 INFO spawned: 'hsdes' with pid 15626
+2018-09-19 13:27:06,595 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:27:07,598 INFO spawned: 'hsdes' with pid 15627
+2018-09-19 13:27:07,799 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:27:09,806 INFO spawned: 'hsdes' with pid 15628
+2018-09-19 13:27:10,008 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:27:13,012 INFO spawned: 'hsdes' with pid 15629
+2018-09-19 13:27:13,212 INFO exited: hsdes (exit status 1; not expected)
+2018-09-19 13:27:14,213 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:32:17,523 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:32:18,526 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:32:20,528 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:32:23,533 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:32:23,533 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:32:23,752 INFO waiting for node to die
+2018-09-19 13:32:23,752 INFO stopped: node (terminated by SIGTERM)
+2018-09-19 13:32:23,763 CRIT Supervisor running as root (no user in config file)
+2018-09-19 13:32:23,763 WARN Included extra file "/etc/supervisor/conf.d/node.conf" during parsing
+2018-09-19 13:32:23,763 INFO RPC interface 'supervisor' initialized
+2018-09-19 13:32:23,764 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-19 13:32:23,764 INFO supervisord started with pid 1153
+2018-09-19 13:32:24,765 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:32:24,767 INFO spawned: 'node' with pid 15639
+2018-09-19 13:32:25,770 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:32:25,771 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 13:32:27,978 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:32:31,375 INFO spawnerr: can't find command 'gunicorn'
+2018-09-19 13:32:31,376 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 13:33:32,167 INFO spawned: 'hsdes' with pid 15655
+2018-09-19 13:33:33,501 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 13:33:35,758 INFO waiting for hsdes, node to die
+2018-09-19 13:33:35,764 INFO stopped: node (terminated by SIGTERM)
+2018-09-19 13:33:36,122 INFO stopped: hsdes (exit status 0)
+2018-09-19 13:33:36,132 CRIT Supervisor running as root (no user in config file)
+2018-09-19 13:33:36,132 WARN Included extra file "/etc/supervisor/conf.d/node.conf" during parsing
+2018-09-19 13:33:36,133 INFO RPC interface 'supervisor' initialized
+2018-09-19 13:33:36,133 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-19 13:33:36,133 INFO supervisord started with pid 1153
+2018-09-19 13:33:37,136 INFO spawned: 'hsdes' with pid 15664
+2018-09-19 13:33:37,140 INFO spawned: 'node' with pid 15665
+2018-09-19 13:33:38,463 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 13:33:38,464 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 13:43:21,844 INFO waiting for node to stop
+2018-09-19 13:43:21,850 INFO stopped: node (terminated by SIGTERM)
+2018-09-19 13:45:38,223 INFO spawned: 'node' with pid 15709
+2018-09-19 13:45:39,226 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:42:52,325 INFO waiting for hsdes to stop
+2018-09-19 15:42:52,685 INFO stopped: hsdes (exit status 0)
+2018-09-19 15:42:52,690 INFO spawned: 'hsdes' with pid 15845
+2018-09-19 15:42:54,020 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:42:54,358 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:42:55,362 INFO spawned: 'hsdes' with pid 15852
+2018-09-19 15:42:56,696 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:42:58,919 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:42:59,922 INFO spawned: 'hsdes' with pid 15859
+2018-09-19 15:43:01,256 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:01,528 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:02,530 INFO spawned: 'hsdes' with pid 15866
+2018-09-19 15:43:03,863 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:06,081 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:07,085 INFO spawned: 'hsdes' with pid 15873
+2018-09-19 15:43:08,416 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:08,702 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:09,705 INFO spawned: 'hsdes' with pid 15880
+2018-09-19 15:43:11,037 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:13,312 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:13,457 INFO spawned: 'hsdes' with pid 15887
+2018-09-19 15:43:13,465 INFO exited: node (exit status 1; not expected)
+2018-09-19 15:43:13,783 INFO spawned: 'node' with pid 15890
+2018-09-19 15:43:14,792 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:14,792 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:17,152 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:18,155 INFO spawned: 'hsdes' with pid 15901
+2018-09-19 15:43:19,487 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:21,784 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:22,787 INFO spawned: 'hsdes' with pid 15908
+2018-09-19 15:43:24,119 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:26,298 INFO exited: node (exit status 1; not expected)
+2018-09-19 15:43:26,347 INFO spawned: 'node' with pid 15919
+2018-09-19 15:43:26,348 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:27,351 INFO spawned: 'hsdes' with pid 15926
+2018-09-19 15:43:27,352 INFO success: node entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:28,740 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:30,995 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:31,998 INFO spawned: 'hsdes' with pid 15933
+2018-09-19 15:43:33,330 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:35,623 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:36,626 INFO spawned: 'hsdes' with pid 15940
+2018-09-19 15:43:37,959 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:40,266 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:41,269 INFO spawned: 'hsdes' with pid 15947
+2018-09-19 15:43:42,600 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:44,955 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:45,958 INFO spawned: 'hsdes' with pid 15954
+2018-09-19 15:43:47,290 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:49,546 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:50,549 INFO spawned: 'hsdes' with pid 15961
+2018-09-19 15:43:51,867 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:52,133 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:53,136 INFO spawned: 'hsdes' with pid 15968
+2018-09-19 15:43:54,469 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:43:56,731 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:43:57,734 INFO spawned: 'hsdes' with pid 15975
+2018-09-19 15:43:59,066 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:44:09,271 INFO waiting for hsdes to stop
+2018-09-19 15:44:09,630 INFO stopped: hsdes (exit status 0)
+2018-09-19 15:44:09,636 INFO spawned: 'hsdes' with pid 15984
+2018-09-19 15:44:10,966 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:46:51,153 INFO waiting for hsdes to stop
+2018-09-19 15:46:51,513 INFO stopped: hsdes (exit status 0)
+2018-09-19 15:46:51,519 INFO spawned: 'hsdes' with pid 16000
+2018-09-19 15:46:51,971 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:46:52,976 INFO spawned: 'hsdes' with pid 16004
+2018-09-19 15:46:53,431 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:46:55,436 INFO spawned: 'hsdes' with pid 16008
+2018-09-19 15:46:55,892 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:46:58,898 INFO spawned: 'hsdes' with pid 16012
+2018-09-19 15:46:59,353 INFO exited: hsdes (exit status 3; not expected)
+2018-09-19 15:47:00,355 INFO gave up: hsdes entered FATAL state, too many start retries too quickly
+2018-09-19 15:49:05,329 INFO spawned: 'hsdes' with pid 16018
+2018-09-19 15:49:06,662 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:50:48,934 INFO waiting for hsdes to stop
+2018-09-19 15:50:49,295 INFO stopped: hsdes (exit status 0)
+2018-09-19 15:50:49,301 INFO spawned: 'hsdes' with pid 16030
+2018-09-19 15:50:50,628 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-19 15:54:06,360 INFO waiting for hsdes to stop
+2018-09-19 15:54:06,724 INFO stopped: hsdes (exit status 0)
+2018-09-19 15:54:06,729 INFO spawned: 'hsdes' with pid 16039
+2018-09-19 15:54:08,058 INFO success: hsdes entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
