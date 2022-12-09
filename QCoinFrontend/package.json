@@ -19,7 +19,7 @@
     "element-ui": "^2.4.5",
     "font-awesome": "^4.7.0",
     "fontawesome": "^4.7.2",
-    "qs": "^6.5.2",
+    "qs": "^6.5.3",
     "v-charts": "^1.17.10",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
